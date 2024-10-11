@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewlogo"
+        android:layout_width="46dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/logo_uny"
+        android:src="@drawable/uny"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewHead"
+        android:layout_width="272dp"
+        android:layout_height="351dp"
+        android:layout_marginTop="56dp"
+        android:contentDescription="@string/head"
+        android:src="@drawable/body"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageViewEyes"
+        android:layout_width="94dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="156dp"
+        android:contentDescription="@string/eyes"
+        android:src="@drawable/eyes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewHair"
+        android:layout_width="261dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="44dp"
+        android:contentDescription="@string/hair"
+        android:src="@drawable/hair"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewEyebrow"
+        android:layout_width="185dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="140dp"
+        android:contentDescription="@string/eyebrow"
+        android:src="@drawable/eyebrow"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewBeard"
+        android:layout_width="172dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="284dp"
+        android:contentDescription="@string/beard"
+        android:src="@drawable/beard"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewMustache"
+        android:layout_width="243dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="68dp"
+        android:contentDescription="@string/mustache"
+        android:src="@drawable/moustache"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewEyebrow" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEyebrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/alis"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxHair"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewHead" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBeard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Janggut"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxMustache"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxEyebrow" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMustache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/namekumis"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxHair" />
+
+    <CheckBox
+        android:id="@+id/checkBoxHair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/rambut"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewHead" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="@string/biodata"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxBeard"
+        app:layout_constraintVertical_bias="0.177" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

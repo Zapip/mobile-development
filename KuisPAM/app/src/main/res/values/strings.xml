@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KuisPAM</string>
+    <string name="head">Head</string>
+    <string name="eyes">Eyes</string>
+    <string name="hair">Hair</string>
+    <string name="eyebrow">Eyebrow</string>
+    <string name="beard">Beard</string>
+    <string name="mustache">Mustache</string>
+    <string name="Janggut">Janggut</string>
+    <string name="alis">Alis</string>
+    <string name="rambut">Rambut</string>
+    <string name="namekumis">Kumis</string>
+    <string name="biodata">M. Zafif Hilmi Al-hadi | 22520241005 | 2024</string>
+    <string name="logo_uny">logo UNY</string>
+</resources>

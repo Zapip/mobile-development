@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Shopping List App</string>
+    <string name="title_activity_main">Daftar Belanja</string>
+    <string name="title_activity_second">Tambah Item</string>
+    <string name="heading_activity2">Pilih Item atau Masukkan Sendiri</string>
+    <string name="input_activity2">Masukkan item baru</string>
+    <string name="button_activity2">Tambahkan item baru</string>
+    <string name="Heading_activity1">Daftar Belanja</string>
+    <string name="button_activity1">Tambahkan Item</string>
+</resources>
