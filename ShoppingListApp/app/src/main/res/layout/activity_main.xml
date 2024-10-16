@@ -26,5 +26,19 @@
         android:text="@string/button_activity1"
         android:layout_gravity="end|bottom"/>
 
+    <EditText
+        android:id="@+id/storeNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukkan_nama_toko"
+        android:inputType="text"
+        android:focusableInTouchMode="true"/>
+    <Button
+        android:id="@+id/findStoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cari_toko"
+        android:layout_gravity="end|bottom"/>
+
 
 </LinearLayout>

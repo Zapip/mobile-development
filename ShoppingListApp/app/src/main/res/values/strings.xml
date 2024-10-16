@@ -7,4 +7,6 @@
     <string name="button_activity2">Tambahkan item baru</string>
     <string name="Heading_activity1">Daftar Belanja</string>
     <string name="button_activity1">Tambahkan Item</string>
+    <string name="masukkan_nama_toko">Masukkan nama toko</string>
+    <string name="cari_toko">Cari toko</string>
 </resources>
