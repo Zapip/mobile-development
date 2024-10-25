@@ -77,8 +77,8 @@ public class MainActivity extends Activity {
         try {
             compute(Calculator.Operator.DIV);
         } catch (IllegalArgumentException iae) {
-            Log.e(TAG, "IllegalArgumentException", iae);
-            mResultTextView.setText(getString(R.string.computationError));
+            Log.e(TAG, getString(R.string.tidak_dapat_membagi_dengan_nol), iae);
+            mResultTextView.setText(getString(R.string.computationError) + getString(R.string.pembagi_tidak_boleh_bernilai_0));
         }
     }
 
@@ -138,6 +138,11 @@ public class MainActivity extends Activity {
      * @return the operand text which was entered in an EditText.
      */
     private static String getOperandText(EditText operandEditText) {
-        return operandEditText.getText().toString();
+        String operandText = operandEditText.getText().toString();
+        if (operandText.isEmpty()) {
+            return "0";
+        }
+        return operandText;
     }
+
 }

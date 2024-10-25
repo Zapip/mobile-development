@@ -39,5 +39,7 @@
 
     <!-- Message for textview in case of errors  -->
     <string name="computationError">Error</string>
+    <string name="pembagi_tidak_boleh_bernilai_0">: Pembagi tidak boleh bernilai 0</string>
+    <string name="tidak_dapat_membagi_dengan_nol">Tidak dapat membagi dengan nol</string>
 
 </resources>
