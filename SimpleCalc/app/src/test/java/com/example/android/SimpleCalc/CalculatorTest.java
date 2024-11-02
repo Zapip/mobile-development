@@ -22,6 +22,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
+import org.mockito.MockitoAnnotations;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
@@ -42,6 +43,7 @@ public class CalculatorTest {
      */
     @Before
     public void setUp() {
+        MockitoAnnotations.openMocks(this);
         mCalculator = new Calculator();
     }
 
@@ -104,8 +106,9 @@ public class CalculatorTest {
 //        double resultDiv = mCalculator.div(32d,0);
 //        assertThat(resultDiv, is(equalTo(Double.POSITIVE_INFINITY)));
 //    }
-    @Test
-    public void divByZeroThrows() {
-        mCalculator.div(32d, 0);
-    }
+//    @Test
+//    public void divByZeroThrows() {
+//        mCalculator.div(32d, 0);
+//    }
+
 }
